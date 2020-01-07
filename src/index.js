@@ -13,7 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
       let newTask = document.createElement('li')
       newTask.innerText = input.value
       ul.appendChild(newTask)
-      
+
+      //Create and set up delete button
+      let deleteButton = document.createElement('button')
+      deleteButton.innerText = 'X'
+      newTask.appendChild(deleteButton)
+
     })
 
 
