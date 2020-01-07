@@ -19,6 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
       deleteButton.innerText = 'X'
       newTask.appendChild(deleteButton)
 
+      //Add listner to delete li on button click
+      deleteButton.addEventListener('click', (e) = e.target.parentNode.remove())
+
     })
 
 
