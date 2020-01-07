@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.querySelector('input#new-task-description')
     let ul = document.querySelector('ul#tasks')
 
-  
+
 });
