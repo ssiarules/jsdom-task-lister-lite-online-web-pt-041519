@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       newTask.appendChild(deleteButton)
 
       //Add listner to delete li on button click
-      deleteButton.addEventListener('click', (e) => e.target.parentNode.remove()
+      deleteButton.addEventListener('click', (e) => e.target.parentNode.remove())
 
       //clear the input field
       input.value = ''
