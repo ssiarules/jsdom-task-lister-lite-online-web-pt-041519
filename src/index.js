@@ -26,6 +26,4 @@ document.addEventListener("DOMContentLoaded", () => {
       input.value = ''
 
     })
-
-
 });
